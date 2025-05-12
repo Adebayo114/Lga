@@ -6,7 +6,7 @@
         <h1 className="title">Remembering Alake Awawu Yahaya (Adebayo)</h1>
         <nav className="nav">
         <Link to="/" className="nav-link">Home</Link>
-        <Link to="/quiz" className="nav-link">Quiz</Link>
+        {/* <Link to="#" className="nav-link">Quiz</Link> */}
         </nav>
     </header>
     );

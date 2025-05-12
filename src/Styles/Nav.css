@@ -1,0 +1,38 @@
+.header {
+    background-color: #8b5e3c; /* updated to countdown color */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: none; /* optional: remove default border */
+    color: #fff;
+  }
+  
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff; /* make sure title is visible on dark background */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* white text on dark bg */
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f3efe9; /* soft hover effect */
+  }
+  
+  .nav-link.active {
+    color: #f3efe9;
+    border-bottom: 2px solid #f3efe9;
+  }
+  

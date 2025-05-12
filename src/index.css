@@ -1,0 +1,20 @@
+/* Legacy/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}

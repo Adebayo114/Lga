@@ -1,0 +1,103 @@
+    /* Legacy/src/index.css */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f3efe9; /* soft beige background */
+        margin: 0;
+        padding: 0;
+      }
+    
+    .home-container {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    }
+
+    .profile-pic {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    }
+
+    .subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+
+    .text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    }
+
+    .event-details {
+    font-size: 1rem;
+    margin: 20px 0;
+    }
+
+    .event-date {
+    font-weight: bold;
+    font-size: 1.2rem;
+    }
+
+    .quiz-link {
+    margin-top: 30px;
+    }
+
+    .quiz-button {
+    padding: 10px 20px;
+    background-color: #7b5d43;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .quiz-button:hover {
+    background-color: #5a412e;
+    }
+
+
+    .countdown-timer {
+        margin-top: 20px;
+        padding: 15px 20px;
+        background: #f7f5f2;
+        border-left: 5px solid #8b5e3c;
+        border-radius: 8px;
+        font-size: 1.25rem;
+        color: #4a3b2b;
+        font-family: 'Poppins', sans-serif;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      
+
+
+      .home-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-top: 30px;
+      }
+      
+      .home-button,
+      .quiz-button {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #6f462b;
+        color: #fff;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      
+      .home-button:hover,
+      .quiz-button:hover {
+        background-color: #9a6e4c;
+      }
+      

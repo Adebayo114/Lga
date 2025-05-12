@@ -1,6 +1,6 @@
     // pages/QuizPage.jsx
     import Quiz from '../Components/Quiz';
-    import '../Styles/QuizPage.css';
+    import '../Styles/Quizpage.css';
 
     const QuizPage = () => (
     <div className="quiz-page">

@@ -71,6 +71,8 @@ import child9 from "../assets/image3/children-9.jpg";
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
+
+         window.scrollTo(0, 0); // Scroll to top on load
         const audio = new Audio(bgMusic);
         audio.volume = 0.5;
         audio.loop = true;
@@ -120,6 +122,8 @@ import child9 from "../assets/image3/children-9.jpg";
         </div>
     );
 
+
+
     return (
         <div className="gallery-wrapper">
         <Link to="/" className="back-btn">← Back Home</Link>
@@ -137,8 +141,17 @@ import child9 from "../assets/image3/children-9.jpg";
             <div className="modal-content">{modalContent}</div>
             </div>
         )}
+
+            <button className="scroll-to-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+  ↑ Top
+</button>
         </div>
+
+        
     );
+
+
+    
     };
 
     export default Gallery;

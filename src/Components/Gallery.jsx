@@ -1,39 +1,69 @@
     import '../Styles/Gallery.css';
     import { Link } from 'react-router-dom';
     import { useEffect, useState } from 'react';
-    import grandma1 from "../assets/Image2/Grandma (1).jpg";
-    import grandma2 from "../assets/Image2/Grandma (2).jpg";
-    import grandma3 from "../assets/Image2/Grandma (3).jpg";
-    import grandma4 from "../assets/Image2/Grandma (4).jpg";
-    import grandma5 from "../assets/Image2/Grandma (5).jpg";
-    import grandma6 from "../assets/Image2/Grandma (6).jpg";
-    import grandma7 from "../assets/Image2/Grandma (7).jpg";
-    import grandma8 from "../assets/Image2/Grandma (8).jpg";
-    import grandma9 from "../assets/Image2/Grandma (9).jpg";
-    import grandma10 from "../assets/Image2/Grandma (10).jpg";
-    import grandma11 from "../assets/Image2/Grandma (1).mp4";
-    import grandma12 from "../assets/Image2/Grandma (2).mp4";
-    import grandma13 from "../assets/Image2/Grandma (3).mp4";
+
+    // Background music
     import bgMusic from "../assets/Audio/Simi_Iya_Ni_Wura_Cover_9jaflaver.com_.mp3";
 
-    const images = [
-    grandma1,
-    grandma2,
-    grandma3,
-    grandma4,
-    grandma5,
-    grandma6,
-    grandma7,
-    grandma8,
-    grandma9,
-    grandma10
-    ];
+    // Alake Adebayo (Grandma)
+    import alake1 from "../assets/Image2/Grandma (1).jpg";
+    import alake2 from "../assets/Image2/Grandma (2).jpg";
+    import alake3 from "../assets/Image2/Grandma (3).jpg";
+    import alake4 from "../assets/Image2/Grandma (4).jpg";
+    import alake5 from "../assets/Image2/Grandma (5).jpg";
+    import alake6 from "../assets/Image2/Grandma (6).jpg";
+    import alake7 from "../assets/Image2/Grandma (7).jpg";
+    import alake8 from "../assets/Image2/Grandma (8).jpg";
+    import alake9 from "../assets/Image2/Grandma (9).jpg";
+    import alake10 from "../assets/Image2/Grandma (10).jpg";
+    import alakeVideo from "../assets/Image2/Alake-and-Children.mp4";
+    import alakeVideo2 from "../assets/Image2/Grandma (1).mp4";
+    import alakeVideo3 from "../assets/Image2/Grandma (3).mp4";
 
-    const videos = [
-    grandma11,
-    grandma12,
-    grandma13
-    ];
+    // Her Children
+    import child1 from "../assets/Image3/Children (1).jpg";
+    import child2 from "../assets/Image3/Children (5).jpg";
+    import child3 from "../assets/Image3/Children (6).jpg";
+    import child4 from "../assets/Image3/Children (2).jpg";
+    import child5 from "../assets/Image3/Children (3).jpg";
+    import child6 from "../assets/Image3/Children (7).jpg";
+    import child7 from "../assets/Image3/Children (4).jpg";
+    import child8 from "../assets/Image3/Children (8).jpg";
+    import child9 from "../assets/Image3/Children (9).jpg";
+
+    // Wives
+    import wife1 from "../assets/Image3/wives (1).jpg";
+    import wife2 from "../assets/Image3/wives (2).jpg";
+    import wife3 from "../assets/Image3/wives (3).jpg";
+
+
+    // Grandchildren & Great-grandchildren
+    import grand1 from "../assets/Image3/GrandChildren (1).jpg";
+    import grand2 from "../assets/Image3/GrandChildren (2).jpg";
+    import grand3 from "../assets/Image3/GrandChildren (3).jpg";
+    import grand4 from "../assets/Image3/GrandChildren (4).jpg";
+    import grand5 from "../assets/Image3/GrandChildren (5).jpg";
+    import grand6 from "../assets/Image3/GrandChildren (6).jpg";
+
+    
+
+    
+    // Family Friends
+    import friend1 from "../assets/Image3/Family-Friends (1).jpg";
+    import friend2 from "../assets/Image3/Family-Friends (2).jpg";
+    import friend3 from "../assets/Image3/Family-Friends (3).jpg";
+    import friend4 from "../assets/Image3/Family-Friends (4).jpg";
+    import friend5 from "../assets/Image3/Family-Friends (5).jpg";
+    import friend6 from "../assets/Image3/Family-Friends (6).jpg";
+    import friend7 from "../assets/Image3/Family-Friends (7).jpg";
+    
+
+    // Grouped media
+    const alakeImages = [alake1, alake2, alake3,alake4, alake5, alake6, alake7, alake8, alake9, alake10,alakeVideo, alakeVideo2, alakeVideo3];
+    const childrenImages = [child1, child2,child3, child4, child5, child6, child7, child8, child9];
+    const wifeImages = [wife1, wife2, wife3];
+    const grandMedia = [grand1, grand2, grand3, grand4, grand5, grand6];
+    const friendMedia = [friend1, friend2, friend3, friend4, friend5, friend6, friend7];
 
     const Gallery = () => {
     const [modalContent, setModalContent] = useState(null);
@@ -41,13 +71,13 @@
 
     useEffect(() => {
         const audio = new Audio(bgMusic);
-        audio.volume = 0.5; // Set volume to 50%
-        audio.loop = true; // Loop the music
+        audio.volume = 0.5;
+        audio.loop = true;
         audio.play();
 
         return () => {
-        audio.pause(); // Stop the music when the component unmounts
-        audio.currentTime = 0; // Reset the audio
+        audio.pause();
+        audio.currentTime = 0;
         };
     }, []);
 
@@ -61,32 +91,45 @@
         setModalContent(null);
     };
 
-    return (
-        <div className="gallery-wrapper">
-        <Link to="/" className="back-btn">← Back Home</Link>
-        <h2>Photo & Video Gallery</h2>
+    const renderSection = (title, mediaArray) => (
+        <div className="gallery-section">
+        <h3>{title}</h3>
         <div className="gallery-grid">
-            {images.map((src, i) => (
-            <img
-                key={i}
-                src={src}
-                alt={`mama-${i}`}
-                className="gallery-img"
-                onClick={() => openModal(<img src={src} alt={`mama-${i}`} />)}
-            />
-            ))}
-            {videos.map((src, i) => (
-            <video
+            {mediaArray.map((src, i) => {
+            const isVideo = typeof src === 'string' && src.endsWith('.mp4');
+            return isVideo ? (
+                <video
                 key={i}
                 src={src}
                 controls
                 className="gallery-video"
                 onClick={() => openModal(<video src={src} controls autoPlay />)}
-            />
-            ))}
+                />
+            ) : (
+                <img
+                key={i}
+                src={src}
+                alt={`${title}-${i}`}
+                className="gallery-img"
+                onClick={() => openModal(<img src={src} alt={`${title}-${i}`} />)}
+                />
+            );
+            })}
         </div>
+        </div>
+    );
 
-        {/* Modal */}
+    return (
+        <div className="gallery-wrapper">
+        <Link to="/" className="back-btn">← Back Home</Link>
+        <h2>Photo & Video Gallery</h2>
+
+        {renderSection("Alake Yahaya Adebayo", alakeImages)}
+        {renderSection("Her Children", childrenImages)}
+        {renderSection("Her Wives", wifeImages)}
+        {renderSection("Grandchildren & Great-Grandchildren", grandMedia)}
+        {renderSection("Family Friends", friendMedia)}
+
         {isModalOpen && (
             <div className="modal" onClick={closeModal}>
             <span className="close-btn" onClick={closeModal}>&times;</span>

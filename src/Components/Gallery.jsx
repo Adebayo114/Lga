@@ -21,7 +21,7 @@
     import alakeVideo3 from "../assets/Image2/Grandma (3).mp4";
 
     // Her Children
-    import child1 from "../assets/Image3/Children (1).jpg";
+    import child1 from "../assets/Image3/Children-1.jpg";
     import child2 from "../assets/Image3/Children (5).jpg";
     import child3 from "../assets/Image3/Children (6).jpg";
     import child4 from "../assets/Image3/Children (2).jpg";

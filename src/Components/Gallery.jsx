@@ -21,16 +21,15 @@
     import alakeVideo3 from "../assets/Image2/Grandma (3).mp4";
 
     // Her Children
-    <img src="/assets/Image3/Children-1.jpg" alt="Children" />
-
-    import child2 from "../assets/Image3/Children (5).jpg";
-    import child3 from "../assets/Image3/Children (6).jpg";
-    import child4 from "../assets/Image3/Children (2).jpg";
-    import child5 from "../assets/Image3/Children (3).jpg";
-    import child6 from "../assets/Image3/Children (7).jpg";
-    import child7 from "../assets/Image3/Children (4).jpg";
-    import child8 from "../assets/Image3/Children (8).jpg";
-    import child9 from "../assets/Image3/Children (9).jpg";
+    import child1 from "../assets/Image3/children-1.jpg";
+    import child2 from "../assets/Image3/children-5.jpg";
+    import child3 from "../assets/Image3/children-6.jpg";
+    import child4 from "../assets/Image3/children-2.jpg";
+    import child5 from "../assets/Image3/children-3.jpg";
+    import child6 from "../assets/Image3/children-7.jpg";
+    import child7 from "../assets/Image3/children-4.jpg";
+    import child8 from "../assets/Image3/children-8.jpg";
+    import child9 from "../assets/Image3/children-9.jpg";
 
     // Wives
     import wife1 from "../assets/Image3/wives (1).jpg";
@@ -61,7 +60,7 @@
 
     // Grouped media
     const alakeImages = [alake1, alake2, alake3,alake4, alake5, alake6, alake7, alake8, alake9, alake10,alakeVideo, alakeVideo2, alakeVideo3];
-    const childrenImages = [child2,child3, child4, child5, child6, child7, child8, child9];
+    const childrenImages = [child1,child2,child3, child4, child5, child6, child7, child8, child9];
     const wifeImages = [wife1, wife2, wife3];
     const grandMedia = [grand1, grand2, grand3, grand4, grand5, grand6];
     const friendMedia = [friend1, friend2, friend3, friend4, friend5, friend6, friend7];

@@ -33,30 +33,30 @@ import child9 from "../assets/image3/children-9.jpg";
 
 
     // Wives
-    import wife1 from "../assets/Image3/wives (1).jpg";
-    import wife2 from "../assets/Image3/wives (2).jpg";
-    import wife3 from "../assets/Image3/wives (3).jpg";
+    import wife1 from "../assets/image3/wives (1).jpg";
+    import wife2 from "../assets/image3/wives (2).jpg";
+    import wife3 from "../assets/image3/wives (3).jpg";
 
 
     // Grandchildren & Great-grandchildren
-    import grand1 from "../assets/Image3/GrandChildren (1).jpg";
-    import grand2 from "../assets/Image3/GrandChildren (2).jpg";
-    import grand3 from "../assets/Image3/GrandChildren (3).jpg";
-    import grand4 from "../assets/Image3/GrandChildren (4).jpg";
-    import grand5 from "../assets/Image3/GrandChildren (5).jpg";
-    import grand6 from "../assets/Image3/GrandChildren (6).jpg";
+    import grand1 from "../assets/image3/GrandChildren (1).jpg";
+    import grand2 from "../assets/image3/GrandChildren (2).jpg";
+    import grand3 from "../assets/image3/GrandChildren (3).jpg";
+    import grand4 from "../assets/image3/GrandChildren (4).jpg";
+    import grand5 from "../assets/image3/GrandChildren (5).jpg";
+    import grand6 from "../assets/image3/GrandChildren (6).jpg";
 
     
 
     
     // Family Friends
-    import friend1 from "../assets/Image3/Family-Friends (1).jpg";
-    import friend2 from "../assets/Image3/Family-Friends (2).jpg";
-    import friend3 from "../assets/Image3/Family-Friends (3).jpg";
-    import friend4 from "../assets/Image3/Family-Friends (4).jpg";
-    import friend5 from "../assets/Image3/Family-Friends (5).jpg";
-    import friend6 from "../assets/Image3/Family-Friends (6).jpg";
-    import friend7 from "../assets/Image3/Family-Friends (7).jpg";
+    import friend1 from "../assets/image3/Family-Friends (1).jpg";
+    import friend2 from "../assets/image3/Family-Friends (2).jpg";
+    import friend3 from "../assets/image3/Family-Friends (3).jpg";
+    import friend4 from "../assets/image3/Family-Friends (4).jpg";
+    import friend5 from "../assets/image3/Family-Friends (5).jpg";
+    import friend6 from "../assets/image3/Family-Friends (6).jpg";
+    import friend7 from "../assets/image3/Family-Friends (7).jpg";
     
 
     // Grouped media

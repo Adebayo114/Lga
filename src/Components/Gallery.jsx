@@ -16,9 +16,9 @@
     import alake8 from "../assets/Image2/Grandma (8).jpg";
     import alake9 from "../assets/Image2/Grandma (9).jpg";
     import alake10 from "../assets/Image2/Grandma (10).jpg";
-    import alakeVideo from "../assets/Image2/Alake-and-Children.mp4";
-    import alakeVideo2 from "../assets/Image2/Grandma (1).mp4";
-    import alakeVideo3 from "../assets/Image2/Grandma (3).mp4";
+    import alakeVideo from "../assets/Image2/grandma-2.mp4";
+    import alakeVideo2 from "../assets/Image2/grandma-1.mp4";
+    import alakeVideo3 from "../assets/Image2/grandma-3.mp4";
 
 // Her Children
 import child1 from "../assets/image3/children-1.jpg";

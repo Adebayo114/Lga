@@ -20,16 +20,17 @@
     import alakeVideo2 from "../assets/Image2/Grandma (1).mp4";
     import alakeVideo3 from "../assets/Image2/Grandma (3).mp4";
 
-    // Her Children
-    import child1 from "../assets/Image3/children-1.jpg";
-    import child2 from "../assets/Image3/children-5.jpg";
-    import child3 from "../assets/Image3/children-6.jpg";
-    import child4 from "../assets/Image3/children-2.jpg";
-    import child5 from "../assets/Image3/children-3.jpg";
-    import child6 from "../assets/Image3/children-7.jpg";
-    import child7 from "../assets/Image3/children-4.jpg";
-    import child8 from "../assets/Image3/children-8.jpg";
-    import child9 from "../assets/Image3/children-9.jpg";
+// Her Children
+import child1 from "../assets/image3/children-1.jpg";
+import child2 from "../assets/image3/children-5.jpg";
+import child3 from "../assets/image3/children-6.jpg";
+import child4 from "../assets/image3/children-2.jpg";
+import child5 from "../assets/image3/children-3.jpg";
+import child6 from "../assets/image3/children-7.jpg";
+import child7 from "../assets/image3/children-4.jpg";
+import child8 from "../assets/image3/children-8.jpg";
+import child9 from "../assets/image3/children-9.jpg";
+
 
     // Wives
     import wife1 from "../assets/Image3/wives (1).jpg";

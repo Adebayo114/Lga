@@ -18,7 +18,7 @@
             {
                 question: "What year did she die?",
                 options: ["2025", "2023", "2024", "2022"],
-                answer: "2010"
+                answer: "2024"
             },
             {
                 question: "What is her favourite drink?",

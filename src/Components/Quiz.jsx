@@ -16,8 +16,8 @@
                 answer: "Lagos"
             },
             {
-                question: "What year did she retire?",
-                options: ["1995", "2000", "2005", "2010"],
+                question: "What year did she die?",
+                options: ["2025", "2023", "2024", "2022"],
                 answer: "2010"
             },
             {

@@ -81,7 +81,7 @@
                 answer: "A Giver"
             },
             {
-                question: "What is gift Alake Awawu Yahaya Adebayo Favourite Balm?",
+                question: "What is Alake Awawu Yahaya Adebayo Favourite Balm?",
                 options: ["Robb", "Tiger Balm", "Moko Balm", "Aboniki Balm"],
                 answer: "Aboniki Balm"
             }
